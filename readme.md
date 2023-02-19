@@ -4,7 +4,7 @@
 
 - Addition: +
 - Subtraction: -
-- Multiplication: *
+- Multiplication: \*
 - Division: /
 - Modulus: %
 - Increment: ++
@@ -15,7 +15,7 @@
 - Assignment: =
 - Addition assignment: +=
 - Subtraction assignment: -=
-- Multiplication assignment: *=
+- Multiplication assignment: \*=
 - Division assignment: /=
 - Modulus assignment: %=
 - Left shift assignment: <<=
@@ -52,7 +52,7 @@
 - Right shift: >>
 - Unsigned right shift: >>>
 
-### 2. ** FOR EACH OF THE OPEATORS WRITE TWO EXAMPLE**
+### 2. **FOR EACH OF THE OPEATORS WRITE TWO EXAMPLE**
 
 #### 1. **Arithmetic Operators Examples**
 
@@ -72,7 +72,7 @@ const greet  = "Hello" // greet is assigned the value "Hello"
 
   Example 2 (Addition assignment: +=)
 let num = 10
-num -= 4 // num is now 6
+num += 4 // num is now 14
 ```
 
 #### 3. **Comparison Operators Examples**
@@ -147,13 +147,13 @@ The result of the above program when executed is as follows;
 15
 
 #### Brief Explanation
-This is so because at first i is initialized as 1. so when the loop runs for the first time, 
+
+This is so because at first i is initialized as 1. so when the loop runs for the first time,
 
 i = 1
 
+then it checks is (i + 7) < 20?, if yes add 7 to i(ie 7 + 1) hence this returns 8, now i = 8
 
-then it checks is (i + 7) <  20?, if yes add 7 to i(ie 7 + 1) hence this returns 8, now i = 8
+then it checks again, is (i + 7) < 20? if yes add 7 to i(ie 7 + 8), this returns 15
 
-then it checks again, is (i + 7)  < 20?  if yes add 7 to i(ie 7 + 8), this returns 15
-
-then it checks again is (i + 7) < 20? if no terminate the loop. At this point i = 15 therefor 15 + 7 is > 20  Hence the loop is terminated.
+then it checks again is (i + 7) < 20? if no terminate the loop. At this point i = 15 therefor 15 + 7 is > 20 Hence the loop is terminated.
