@@ -130,7 +130,7 @@ let c = a | b; // binary: 111 (decimal: 7)
 console.log(c); // Output: 7
 ```
 
-### 1. **WHAT IS THE RESULT WHEN THE FOLLWING PROGRAM IS EXECUTED**
+### 4. **WHAT IS THE RESULT WHEN THE FOLLWING PROGRAM IS EXECUTED**
 
 ```javascript
 for (let i = 1; i < 20; i += 7) {
